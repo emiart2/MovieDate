@@ -1,12 +1,15 @@
 from typing import List
 
 class Film:
-    def __init__(self, name: str, author: str, year: int, genre: List[str], key_words: List[str]):
+    def __init__(self, name: str, author: str, year: int, genre: List[str], key_words: List[str],
+    to_watch=0, watched=0):
         self.name = name
         self.author = author
         self.year = year
         self.genre = genre
         self.key_words = key_words
+        self.to_watch = to_watch
+        self.watched = watched
 
     def __str__(self) -> str:
         return f"{self.name} by {self.author} ({self.year}) - {self.genre}"
@@ -48,6 +51,12 @@ class Film:
                 keyword_score = len(matching_keywords) / shorter_length * 50
                 points += keyword_score
         
+        if other.to_watch == 1:
+            points *=1.5
+        
+        if other.watched == 1:
+            points *= 0.5
+            
         return points
 
     def get_common_keywords(self, other: 'Film') -> List[str]:

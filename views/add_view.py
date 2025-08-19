@@ -22,7 +22,7 @@ class AddView:
         self.csv_file = csv_file
         self.back_callback = back_callback
 
-        # główny frame
+        # main frame
         self.frame = tk.Frame(root)
         self.frame.pack(fill="both", expand=True)
 
@@ -33,6 +33,14 @@ class AddView:
         self.entry_year = self.make_labeled_entry("Rok:")
         self.entry_genre = self.make_labeled_entry("Gatunki (oddzielone ;):")
         self.entry_keywords = self.make_labeled_entry("Słowa kluczowe (oddzielone ;):")
+
+        #default settings
+        self.var_to_watch = tk.IntVar()
+        self.var_watched = tk.IntVar()
+
+        tk.Checkbutton(self.frame, text="Do obejrzenia", variable=self.var_to_watch).pack()
+        tk.Checkbutton(self.frame, text="Obejrzany", variable=self.var_watched).pack()
+
 
         tk.Button(self.frame, text="Zapisz", command=self.add_film).pack(pady=10)
         tk.Button(self.frame, text="Wróć", command=self.back_callback).pack()
@@ -50,6 +58,10 @@ class AddView:
             year = int(self.entry_year.get().strip())
             genre = [g.strip() for g in self.entry_genre.get().split(";") if g.strip()]
             keywords = [k.strip() for k in self.entry_keywords.get().split(";") if k.strip()]
+
+            #default settings
+            film = Film(name, author, year, genre, keywords,
+            self.var_to_watch.get(), self.var_watched.get())
 
             if not name or not author:
                 raise ValueError("Brak wymaganych danych")

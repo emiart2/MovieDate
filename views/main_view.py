@@ -48,8 +48,8 @@ class MainView:
         tk.Button(self.frame, text="Wróć", command=self.back_callback).pack(pady=5)
 
         # Wyniki
-        self.result = tk.Text(self.frame, height=10, width=90)
-        self.result.pack(pady=10)
+        self.result = tk.Frame(self.frame)
+        self.result.pack(fill="both", expand=True, pady=10)
 
     def update_listbox(self, entry, listbox):
         query = entry.get().lower()
@@ -75,8 +75,61 @@ class MainView:
         scores.sort(reverse=True, key=lambda x: x[0])
         top_recs = scores[:5]
 
-        self.result.delete(1.0, tk.END)
-        self.result.insert(tk.END, f"Wybrane filmy:\n - {film1}\n - {film2}\n\n")
-        self.result.insert(tk.END, "Proponowane filmy:\n")
+        # destroy old view
+        for widget in self.result.winfo_children():
+            widget.destroy()
+
+        tk.Label(self.result, text=f"Wybrane filmy:\n - {film1}\n - {film2}", 
+                    font=("Arial", 10)).pack(anchor="w", pady=5)
+
+        tk.Label(self.result, text="Proponowane filmy:", 
+                    font=("Arial", 12, "bold")).pack(anchor="w", pady=5)
+
         for score, f in top_recs:
-            self.result.insert(tk.END, f"{f.name} ({f.year}) — {score:.1f}% podobieństwa\n")
+            row = tk.Frame(self.result)
+            row.pack(fill="x", pady=2)
+
+            # opis filmu
+            tk.Label(row, text=f"{f.name} ({f.year})", width=50, anchor="w").pack(side="left")
+
+            # guziki akcji jako przełączniki
+            def make_toggle(flag_name, film, btn):
+                def toggle():
+                    current = getattr(film, flag_name)
+                    setattr(film, flag_name, 0 if current else 1)
+                    btn.config(bg="lightpink" if getattr(film, flag_name) else "SystemButtonFace")
+                    self.update_csv(film)
+                return toggle
+
+            btn_to_watch = tk.Button(row, text="Do obejrzenia",
+                                    bg="lightpink" if f.to_watch else "SystemButtonFace")
+            btn_to_watch.config(command=make_toggle("to_watch", f, btn_to_watch))
+            btn_to_watch.pack(side="left", padx=5)
+
+            btn_watched = tk.Button(row, text="Obejrzany",
+                                    bg="lightpink" if f.watched else "SystemButtonFace")
+            btn_watched.config(command=make_toggle("watched", f, btn_watched))
+            btn_watched.pack(side="left", padx=5)
+
+    def set_flag(self, film, to_watch=None, watched=None):
+        if to_watch is not None:
+            film.to_watch = to_watch
+        if watched is not None:
+            film.watched = watched
+
+        # od razu zapisz do CSV
+        self.update_csv(film)
+
+    def update_csv(self, film):
+        import pandas as pd
+        df = pd.read_csv(self.csv_file)
+
+        # znajdź po nazwie i roku (lub czymś unikalnym)
+        mask = (df["name"] == film.name) & (df["year"] == film.year)
+        if mask.any():
+            if "to_watch" in df.columns:
+                df.loc[mask, "to_watch"] = film.to_watch
+            if "watched" in df.columns:
+                df.loc[mask, "watched"] = film.watched
+            df.to_csv(self.csv_file, index=False)
+

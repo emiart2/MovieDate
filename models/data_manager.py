@@ -20,7 +20,11 @@ def load_films(csv_file):
             continue
         year_int = int(m.group(0))
 
-        films.append(Film(str(row["name"]).strip(), str(row["author"]).strip(), year_int, genre, key_words))
+        #default settings
+        to_watch = int(row.get("to_watch", 0))
+        watched = int(row.get("watched", 0))
+
+        films.append(Film(str(row["name"]).strip(), str(row["author"]).strip(), year_int, genre, key_words, to_watch, watched))
     return films
 
 def save_film_to_csv(film: Film, csv_file: str):
@@ -30,6 +34,8 @@ def save_film_to_csv(film: Film, csv_file: str):
         "year": film.year,
         "genre": ";".join(film.genre),
         "key_words": ";".join(film.key_words),
+        "to_watch": film.to_watch,
+        "watched": film.watched,
     }
     df = pd.DataFrame([row])
     df.to_csv(csv_file, mode="a", index=False, header=not os.path.exists(csv_file))
