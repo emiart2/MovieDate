@@ -1,6 +1,4 @@
-from typing import List, Union
-from collections import Counter
-
+from typing import List
 
 class Film:
     def __init__(self, name: str, author: str, year: int, genre: List[str], key_words: List[str]):
