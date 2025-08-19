@@ -9,43 +9,66 @@ class DatabaseView:
         self.csv_file = csv_file
         self.back_callback = back_callback
 
-        self.frame = tk.Frame(root)
+        # --- główny frame z tłem ---
+        self.frame = tk.Frame(root, bg="#fbffae")
         self.frame.pack(fill="both", expand=True)
 
-        tk.Label(self.frame, text="Baza filmów", font=("Arial", 14, "bold"), fg="#545454").pack(pady=10)
+        # Tytuł
+        tk.Label(
+            self.frame, 
+            text="Baza filmów", 
+            font=("Arial", 30, "bold"), 
+            fg="#ffaade", 
+            bg="#fbffae"
+        ).pack(pady=10)
 
         # --- filtry ---
-        filter_frame = tk.Frame(self.frame)
+        filter_frame = tk.Frame(self.frame, bg="#fbffae")
         filter_frame.pack(pady=5)
 
-        tk.Label(filter_frame, text="Szukaj:").pack(side="left")
+        tk.Label(filter_frame, text="Szukaj:", bg="#fbffae").pack(side="left")
         self.search_var = tk.StringVar()
         tk.Entry(filter_frame, textvariable=self.search_var).pack(side="left", padx=5)
         self.search_var.trace_add("write", lambda *args: self.load_data())
 
         self.show_to_watch = tk.IntVar()
-        tk.Checkbutton(filter_frame, text="Do obejrzenia", variable=self.show_to_watch,
-                       command=self.load_data).pack(side="left", padx=5)
+        tk.Checkbutton(
+            filter_frame, 
+            text="Do obejrzenia", 
+            variable=self.show_to_watch,
+            command=self.load_data,
+            bg="#fbffae"
+        ).pack(side="left", padx=5)
 
         self.show_watched = tk.IntVar()
-        tk.Checkbutton(filter_frame, text="Obejrzane", variable=self.show_watched,
-                       command=self.load_data).pack(side="left", padx=5)
+        tk.Checkbutton(
+            filter_frame, 
+            text="Obejrzane", 
+            variable=self.show_watched,
+            command=self.load_data,
+            bg="#fbffae"
+        ).pack(side="left", padx=5)
 
         # --- tabela ---
         columns = ("Tytuł", "Autor", "Rok", "Do obejrzenia", "Obejrzany")
-        self.tree = ttk.Treeview(self.frame, columns=columns, show="headings", selectmode="browse")
+        self.tree = ttk.Treeview(
+            self.frame, columns=columns, show="headings", selectmode="browse"
+        )
+
+        style = ttk.Style()
+        style.configure("Treeview", background="#fbffae", foreground="#545454", rowheight=25, fieldbackground="#fbffae")
+        style.map("Treeview", background=[("selected", "#ffaade")], foreground=[("selected", "white")])
 
         for col in columns:
             if col in ["Tytuł", "Autor"]:
                 self.tree.heading(col, text=col)
                 self.tree.column(col, width=190, anchor="w")
-            elif col in ["Rok"]:
+            elif col == "Rok":
                 self.tree.heading(col, text=col)
-                self.tree.column(col, width=5, anchor="w")
+                self.tree.column(col, width=50, anchor="w")
             else:
                 self.tree.heading(col, text=col)
-                self.tree.column(col, width=20, anchor="w")
-
+                self.tree.column(col, width=120, anchor="center")
 
         self.tree.pack(fill="both", expand=True, padx=10, pady=10)
 
@@ -59,7 +82,13 @@ class DatabaseView:
         # wypełnienie danymi
         self.load_data()
 
-        tk.Button(self.frame, text="Wróć", command=self.back_callback).pack(pady=10)
+        # przycisk Wróć
+        tk.Button(
+            self.frame, text="Wróć", 
+            bg="#ffaade", fg="white", font=("Arial", 10), height=2, width=20,
+            command=self.back_callback
+        ).pack(pady=10)
+
 
     def load_data(self):
         # wyczyszczenie starej zawartości

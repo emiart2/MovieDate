@@ -22,34 +22,71 @@ class AddView:
         self.csv_file = csv_file
         self.back_callback = back_callback
 
-        # main frame
-        self.frame = tk.Frame(root)
+        # --- główny frame z tłem ---
+        self.frame = tk.Frame(root, bg="#fbffae")
         self.frame.pack(fill="both", expand=True)
 
-        tk.Label(self.frame, text="Dodaj nowy film").pack(pady=10)
+        # Wyśrodkowanie w pionie
+        self.inner_frame = tk.Frame(self.frame, bg="#fbffae")
+        self.inner_frame.place(relx=0.5, rely=0.5, anchor="center")
 
+        # Tytuł
+        tk.Label(
+            self.inner_frame, 
+            text="Dodaj nowy film", 
+            font=("Arial", 14, "bold"), 
+            fg="#545454", 
+            bg="#fbffae"
+        ).pack(pady=10)
+
+        # Pola do wpisania danych z napisem nad Entry
         self.entry_name = self.make_labeled_entry("Tytuł:")
         self.entry_author = self.make_labeled_entry("Autor:")
         self.entry_year = self.make_labeled_entry("Rok:")
         self.entry_genre = self.make_labeled_entry("Gatunki (oddzielone ;):")
         self.entry_keywords = self.make_labeled_entry("Słowa kluczowe (oddzielone ;):")
 
-        #default settings
+        # Domyślne ustawienia
         self.var_to_watch = tk.IntVar()
         self.var_watched = tk.IntVar()
 
-        tk.Checkbutton(self.frame, text="Do obejrzenia", variable=self.var_to_watch).pack()
-        tk.Checkbutton(self.frame, text="Obejrzany", variable=self.var_watched).pack()
+        tk.Checkbutton(
+            self.inner_frame, 
+            text="Do obejrzenia", 
+            variable=self.var_to_watch,
+            bg="#fbffae"
+        ).pack(pady=2)
 
+        tk.Checkbutton(
+            self.inner_frame, 
+            text="Obejrzany", 
+            variable=self.var_watched,
+            bg="#fbffae"
+        ).pack(pady=2)
 
-        tk.Button(self.frame, text="Zapisz", command=self.add_film).pack(pady=10)
-        tk.Button(self.frame, text="Wróć", command=self.back_callback).pack()
+        # Guziki
+        tk.Button(
+            self.inner_frame, 
+            text="Zapisz", 
+            bg="#ffaade", fg="white", font=("Arial", 10), width=20,
+            command=self.add_film
+        ).pack(pady=5)
 
-    def make_labeled_entry(self, label):
-        tk.Label(self.frame, text=label).pack()
-        entry = tk.Entry(self.frame, width=50)
+        tk.Button(
+            self.inner_frame, 
+            text="Wróć", 
+            bg="#ffaade", fg="white", font=("Arial", 10), width=20,
+            command=self.back_callback
+        ).pack(pady=5)
+
+    def make_labeled_entry(self, label_text):
+        frame = tk.Frame(self.inner_frame, bg="#fbffae")
+        frame.pack(pady=5, fill="x")
+        tk.Label(frame, text=label_text, bg="#fbffae").pack(anchor="w")
+        entry = tk.Entry(frame, width=40)
         entry.pack()
         return entry
+
 
     def add_film(self):
         try:
