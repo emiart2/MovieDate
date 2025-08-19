@@ -12,7 +12,7 @@ class DatabaseView:
         self.frame = tk.Frame(root)
         self.frame.pack(fill="both", expand=True)
 
-        tk.Label(self.frame, text="Baza filmów", font=("Arial", 14)).pack(pady=10)
+        tk.Label(self.frame, text="Baza filmów", font=("Arial", 14, "bold"), fg="#545454").pack(pady=10)
 
         # --- filtry ---
         filter_frame = tk.Frame(self.frame)

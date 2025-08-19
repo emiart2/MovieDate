@@ -12,10 +12,10 @@ class Film:
         self.watched = watched
 
     def __str__(self) -> str:
-        return f"{self.name} by {self.author} ({self.year}) - {self.genre}"
+        return f"{self.name} by {self.author} ({self.year})"
 
     def __repr__(self) -> str:
-        return f"Film(name='{self.name}', author='{self.author}', year={self.year}, genre='{self.genre}')"
+        return f"Film(name='{self.name}', by'{self.author}'({self.year})"
 
     def metric(self, other: 'Film') -> float:
         """

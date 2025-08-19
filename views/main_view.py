@@ -10,46 +10,54 @@ class MainView:
         self.back_callback = back_callback
 
         # --- główny frame ---
-        self.frame = tk.Frame(root)
+        self.frame = tk.Frame(root, bg="#fbffae")
         self.frame.pack(fill="both", expand=True)
+        tk.Label(
+            self.frame, 
+            text="Wybierzcie swoje filmy!", 
+            font=("Arial", 30, "bold"),
+            bg="#fbffae",   # kolor tła
+            fg="#ffaade"    # kolor czcionki
+        ).pack(pady=10)
 
-        # --- układ lewo-prawo ---
-        top_frame = tk.Frame(self.frame)
-        top_frame.pack(fill="both", expand=True, pady=10)
+        # --- układ lewo-prawo (top_frame) ---
+        top_frame = tk.Frame(self.frame, bg="#fbffae")
+        top_frame.pack(pady=10)
 
         # Lewa część (film 1)
-        left_frame = tk.Frame(top_frame)
-        left_frame.pack(side="left", padx=20, fill="y")
-
-        tk.Label(left_frame, text="Film 1:").pack()
-        self.search1 = tk.Entry(left_frame, width=40)
-        self.search1.pack()
+        left_frame = tk.Frame(top_frame, bg="#fbffae")
+        left_frame.pack(side="left", padx=10)  # zmniejszone padx
+        self.search1 = tk.Entry(left_frame, width=35)
+        self.search1.pack(pady=2)
         self.search1.bind("<KeyRelease>", lambda e: self.update_listbox(self.search1, self.listbox1))
-
-        self.listbox1 = tk.Listbox(left_frame, width=40, height=15,
-                                   selectmode=tk.SINGLE, exportselection=False)
-        self.listbox1.pack(pady=5)
+        self.listbox1 = tk.Listbox(left_frame, width=35, height=15, selectmode=tk.SINGLE, exportselection=False)
+        self.listbox1.pack(pady=2)
 
         # Prawa część (film 2)
-        right_frame = tk.Frame(top_frame)
-        right_frame.pack(side="right", padx=20, fill="y")
-
-        tk.Label(right_frame, text="Film 2:").pack()
-        self.search2 = tk.Entry(right_frame, width=40)
-        self.search2.pack()
+        right_frame = tk.Frame(top_frame, bg="#fbffae")
+        right_frame.pack(side="left", padx=10)  # zmniejszone padx
+        self.search2 = tk.Entry(right_frame, width=35)
+        self.search2.pack(pady=2)
         self.search2.bind("<KeyRelease>", lambda e: self.update_listbox(self.search2, self.listbox2))
+        self.listbox2 = tk.Listbox(right_frame, width=35, height=15, selectmode=tk.SINGLE, exportselection=False)
+        self.listbox2.pack(pady=2)
 
-        self.listbox2 = tk.Listbox(right_frame, width=40, height=15,
-                                   selectmode=tk.SINGLE, exportselection=False)
-        self.listbox2.pack(pady=5)
+        # Wypełnij listy
+        for f in self.films:
+            self.listbox1.insert(tk.END, f.name)
+            self.listbox2.insert(tk.END, f.name)
 
-        # Guziki pod spodem
-        tk.Button(self.frame, text="Pokaż rekomendacje", command=self.show_recommendations).pack(pady=5)
-        tk.Button(self.frame, text="Wróć", command=self.back_callback).pack(pady=5)
+        # Guziki pod spodem, wyśrodkowane
+        btn_frame = tk.Frame(self.frame, bg="#fbffae")
+        btn_frame.pack(pady=5)
+        tk.Button(btn_frame, text="Pokaż rekomendacje", bg="#ffaade", fg="white", font=("Arial", 10), height=2, width=30,
+                command=self.show_recommendations).pack(pady=2)
+        tk.Button(btn_frame, text="Wróć", bg="#ffaade", fg="white", font=("Arial", 10), height=2, width=30,
+                command=self.back_callback).pack(pady=2)
 
-        # Wyniki
-        self.result = tk.Frame(self.frame)
-        self.result.pack(fill="both", expand=True, pady=10)
+        # Wyniki – wyśrodkowane
+        self.result = tk.Frame(self.frame, bg="#fbffae")
+        self.result.pack(pady=10)
 
     def update_listbox(self, entry, listbox):
         query = entry.get().lower()
@@ -79,35 +87,32 @@ class MainView:
         for widget in self.result.winfo_children():
             widget.destroy()
 
-        tk.Label(self.result, text=f"Wybrane filmy:\n - {film1}\n - {film2}", 
-                    font=("Arial", 10)).pack(anchor="w", pady=5)
-
         tk.Label(self.result, text="Proponowane filmy:", 
-                    font=("Arial", 12, "bold")).pack(anchor="w", pady=5)
+                    font=("Arial", 12, "bold"), bg="#fbffae", fg="#545454").pack(anchor="w", pady=5)
 
         for score, f in top_recs:
-            row = tk.Frame(self.result)
+            row = tk.Frame(self.result, bg="#fbffae")
             row.pack(fill="x", pady=2)
 
             # opis filmu
-            tk.Label(row, text=f"{f.name} ({f.year})", width=50, anchor="w").pack(side="left")
+            tk.Label(row, text=f"{f.name} ({f.year})", width=50, anchor="w", bg="#fbffae", fg="#545454").pack(side="left")
 
             # guziki akcji jako przełączniki
             def make_toggle(flag_name, film, btn):
                 def toggle():
                     current = getattr(film, flag_name)
                     setattr(film, flag_name, 0 if current else 1)
-                    btn.config(bg="lightpink" if getattr(film, flag_name) else "SystemButtonFace")
+                    btn.config(bg="#ffaade" if getattr(film, flag_name) else "white")
                     self.update_csv(film)
                 return toggle
 
             btn_to_watch = tk.Button(row, text="Do obejrzenia",
-                                    bg="lightpink" if f.to_watch else "SystemButtonFace")
+                                    bg="#ffaade" if f.to_watch else "white")
             btn_to_watch.config(command=make_toggle("to_watch", f, btn_to_watch))
             btn_to_watch.pack(side="left", padx=5)
 
             btn_watched = tk.Button(row, text="Obejrzany",
-                                    bg="lightpink" if f.watched else "SystemButtonFace")
+                                    bg="#ffaade" if f.watched else "white")
             btn_watched.config(command=make_toggle("watched", f, btn_watched))
             btn_watched.pack(side="left", padx=5)
 

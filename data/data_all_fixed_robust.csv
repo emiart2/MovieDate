@@ -1,5 +1,5 @@
 name,author,year,genre,key_words,to_watch,watched
-Dick Johnson nie żyje,Kirsten Johnson,2020,film dokumentalny;biograficzny;eksperymentalny;dramat,śmierć;rodzina;choroba Alzheimera;humor;relacja ojciec-córka;starość;pamięć;film osobisty,0,0
+Dick Johnson nie żyje,Kirsten Johnson,2020,film dokumentalny;biograficzny;eksperymentalny;dramat,śmierć;rodzina;choroba Alzheimera;humor;relacja ojciec-córka;starość;pamięć;film osobisty,0,1
 My Little Pony: Nowe pokolenie,Robert Cullen i José Luis Ucha,2021,film animowany;dla dzieci;familijny;przygodowy;fantasy,Vanessa Hudgens;Kimiko Glenn;James Marsden;Sofia Carson;Liza Koshy;Ken Jeong;Elizabeth Perkins;Jane Krakowski;Michael McKean;Phil LaMarr;kucyki pony;magia;przyjaźń;przygoda;harmonia,0,0
 Sankofa,Haile Gerima,1993,dramat;film niezależny;film międzynarodowy;historyczny;społeczny,Kofi Ghanaba;Oyafunmike Ogunlano;Alexandra Duah;Nick Medley;Mutabaruka;Afemo Omilami;Reggie Carter;mzuri;niewolnictwo;Afryka;handel niewolnikami;tożsamość;walka o wolność,0,0
 Gwiezdny ptak,Theodore Melfi,2021,komedia;dramat;obyczajowy,Melissa McCarthy;Chris O'Dowd;Kevin Kline;Timothy Olyphant;Daveed Diggs;Skyler Gisondo;Laura Harrier;Rosalind Chao;Kimberly Quinn;Loretta Devine;Ravi Kapoor;utrata;żałoba;miłość;małżeństwo;nadzieja;ogród;ptaki,0,0
@@ -10,7 +10,7 @@ Intruz,Adam Salky,2021,thriller;psychologiczny;dramat;film o zbrodni,Freida Pint
 Avvai Shanmughi,K.S. Ravikumar,1996,komedia;film międzynarodowy;familijny;romantyczny,Kamal Hassan;Meena;Gemini Ganesan;Heera Rajgopal;Nassar;S.P. Balasubrahmanyam;przebieranie się;ojcostwo;indyjski humor;rodzina;miłość,0,0
 Go! Go! Cory Carson: Chrissy za kierownicą,Alex Woo i Stanley Moore,2021,film animowany;dla dzieci;familijny;przygodowy,Maisie Benson;Paul Killam;Kerry Gudjohnsen;AC Lim;samochody;rodzeństwo;zabawa;przygoda;miasto samochodów,0,0
 Jeans,S. Shankar,1998,komedia;film międzynarodowy;romantyczny;muzyczny,Prashanth;Aishwarya Rai Bachchan;Sri Lakshmi;Nassar;bliźniacy;miłość;Indie;piosenki;Bollywood;rodzina,0,0
-Kolor marzeń,Rajiv Menon,1997,komedia;film międzynarodowy;muzyczny;romantyczny;obyczajowy,Arvind Swamy;Kajol;Prabhu Deva;Nassar;S.P. Balasubrahmanyam;Girish Karnad;marzenia;muzyka;miłość;Indie;Bollywood;piosenki,0,0
+Kolor marzeń,Rajiv Menon,1997,komedia;film międzynarodowy;muzyczny;romantyczny;obyczajowy,Arvind Swamy;Kajol;Prabhu Deva;Nassar;S.P. Balasubrahmanyam;Girish Karnad;marzenia;muzyka;miłość;Indie;Bollywood;piosenki,1,0
 Duże dzieci,Dennis Dugan,2010,komedia;familijny;obyczajowy,Adam Sandler;Kevin James;Chris Rock;David Spade;Rob Schneider;Salma Hayek;Maria Bello;Maya Rudolph;Colin Quinn;Tim Meadows;Joyce Van Patten;przyjaźń;wakacje;rodzina;humor,0,0
 Mroczne niebo,Scott Stewart,2013,horror;science fiction;thriller;film o UFO,Keri Russell;Josh Hamilton;J.K. Simmons;Dakota Goyo;Kadan Rockett;L.J. Benet;Rich Hutchman;Myndy Crist;Annie Thurman;Jake Brennan;obcy;porwania;paranormalne;rodzina;strach,0,0
 Paranoia,Robert Luketic,2013,thriller;film szpiegowski;dramat,Liam Hemsworth;Gary Oldman;Amber Heard;Harrison Ford;Lucas Till;Embeth Davidtz;Julian McMahon;Josh Holloway;Richard Dreyfuss;Angela Sarafyan;korporacje;szpiegostwo;technologia;intryga,0,0
@@ -332,7 +332,7 @@ Siódmy dzień,Justin P. Lange,2021,Filmy grozy,Horror;egzorcyzmy;religia;tajemn
 Dobry na papierze,Kimmy Gatewood,2021,Komedie,Komedia romantyczna;związki;humor;miłość;osamotnienie;randki;przyjaźń;percepcja;zawód miłosny,0,0
 Zabójstwo przy wybrzeżu,Tània Balló,2021,Filmy dokumentalne,Kryminal;prawdziwe zbrodnie;śledztwo;morderstwo;mroczna tajemnica;społeczność;ofiary,0,0
 Dom kwiatów: Film,Manolo Caro,2021,Komedie,Musical;komedia;rodzina;tajemnice;skandale;humor;relacje;miłość;muzyka;satyra;Melodramat;sekrety,0,0
-Broken,Anurin Nwunembom,2019,Dramaty,Dramat;romans;rodzina;społeczność;miłość;przyjaźń;wybory życiowe;relacje,0,0
+Broken,Anurin Nwunembom,2019,Dramaty,Dramat;romans;rodzina;społeczność;miłość;przyjaźń;wybory życiowe;relacje,1,0
 Sprzedawca marzeń,Jayme Monjardim,2016,Dramaty,Dramat;życiowa inspiracja;filozofia;nadzieja;przemiana;relacje;mentor;emocje;rodzina,0,0
 Osuofia w Londynie,Kingsley Ogoro,2003,Komedie,Komedia;kultura;adaptacja;rywalizacja;przygoda;rodzina;humor;migracja;tradycja;kontrast kulturowy,0,0
 Osuofia w Londynie II,Kingsley Ogoro,2004,Komedie,Komedia;kultura;adaptacja;rywalizacja;przygoda;rodzina;humor;migracja;tradycja;kontrast kulturowy,0,0
@@ -558,7 +558,7 @@ Nieproszony Gość,Joe Penna,2021,Dramat;Filmy międzynarodowe;Thriller,Anna Ken
 Dziki Pies,Ahishor Solomon,2020,Akcja;Przygodowy;Filmy międzynarodowe,Nagarjuna Akkineni;Dia Mirza;Saiyami Kher;Atul Kulakarni;Bilal Hussain;Ali Reza;Mayank Parakh;akcja;przygoda;kryminalny;walka;detektyw;społeczeństwo;przestępczość;thriller,0,0
 Oloibiri,Curtis Graham,2015,Dramat;Filmy międzynarodowe;Thriller,Olu Jacobs;Richard Mofe-Damijo;William R. Moses;Taiwo Ajai-Lycett;Ifeanyi Williams;Ivie Okujaye;Dayton Sinkia;Bradley Gordon;thriller;dramat;przestępczość;kryminalny;społeczeństwo;napięcie;korupcja;tajemnica,0,0
 Powiedz Mi Kiedy,Gerardo Gatica,2021,Komedia;Filmy międzynarodowe,Jesús Zavala;Ximena Romo;Verónica Castro;José Carlos Ruiz;Gabriel Nuncio;Rosa María Bianchi;Héctor Bonilla;Andrés Almeida;komedia;humor;życie codzienne;przyjaźń;rodzina;nieporozumienia;zabawa,0,0
-Keymon i Nani w Kosmicznej Przygodzie,,2013,Dziecięcy i Rodzinny;Komedia,keymon;nani;kosmos;przygoda;humor;dzieci;rodzina;przyjaźń;animacja,0,0
+Keymon i Nani w Kosmicznej Przygodzie,,2013,Dziecięcy i Rodzinny;Komedia,keymon;nani;kosmos;przygoda;humor;dzieci;rodzina;przyjaźń;animacja,0,1
 Motu Patlu: Inwazja Dinozaurów,Suhas Kadav,2018,Dziecięcy i Rodzinny;Komedia,Sourav Chakraborty;Mayur Vyas;Anil Datt;komedia;dzieci;przygoda;humor;animacja;zwierzęta;dinozaury;przyjaźń,0,0
 Motu Patlu w Świecie Ośmiornic,Suhas Kadav,2017,Dziecięcy i Rodzinny;Komedia,Sourav Chakraborty;Vidit Kumar;Mayur Vyas;Mahendra Bhatnagar;Dishi Duggal;Nandkishore Pandey;komedia;dzieci;przygoda;humor;animacja;morski świat;przyjaźń;zwierzęta,0,0
 Motu Patlu kontra Robo Kids,Suhas Kadav,2019,Dziecięcy i Rodzinny,Sourav Chakraborty;Anil Dutt;komedia;dzieci;przygoda;humor;animacja;roboty;przyjaźń,0,0
@@ -773,7 +773,7 @@ Gościnny Dom,Sam Macaroni;Pauly Shore; Mike Castle; Aimee Teegarden; Billy Zane
 Ma Rainey's Black Bottom,George C. Wolfe;Viola Davis; Chadwick Boseman; Glynn Turman; Colman Domingo; Michael Potts; Jonny Coyne; Taylour Paige; Jeremy Shamos; Dusan Brown; Joshua Harto,2020,Dramaty; Muzyka; Musicale,jazz;muzyka;Afroamerykanie;kultura;blues;praca;społeczeństwo;artysta;dyskryminacja;dramat;przeszłość;rodzina,0,0
 Ma Rainey's Black Bottom: Dziedzictwo na ekranie,Glynn Turman; Denzel Washington; George C. Wolfe; Branford Marsalis; Viola Davis; Imani Perry; Michael Potts; Coleman Domingo; Constanza Romero; August Wilson; Todd Black; Dusan Brown; Taylour Paige; Ann Roth; Chadwick Boseman,2020,Filmy dokumentalne; Muzyka; Musicale,jazz;historia;dokument;muzyka;dramat;Afroamerykanie;kultura;blues;społeczeństwo;dziedzictwo,0,0
 Mukhsin,Yasmin Ahmad;Mohd Syafie Naswip; Sharifah Aryana; Sharifah Aleya; Adibah Noor; Irwan Iskandar; Sallehuddin Abu Bakar,2006,Dzieci i Rodzina; Komedie; Dramaty,romans;dzieci;przyjaźń;szkoła;kultura Malezji;humor;miłość;dramat;przygoda,0,0
-Rabun,Yasmin Ahmad;M. Rajoli; Kartina Aziz; Rozie Rashid; Irwan Iskandar; Noor Khiriah; Hafiz Ibrahim,2004,Dramaty; Filmy niezależne; Filmy międzynarodowe,dramat;kultura Malezji;społeczeństwo;relacje;rodzina;miłość;życie;społeczność,0,0
+Rabun,Yasmin Ahmad;M. Rajoli; Kartina Aziz; Rozie Rashid; Irwan Iskandar; Noor Khiriah; Hafiz Ibrahim,2004,Dramaty; Filmy niezależne; Filmy międzynarodowe,dramat;kultura Malezji;społeczeństwo;relacje;rodzina;miłość;życie;społeczność,0,1
 Vir Das: Na zewnątrz - Specjalny Lockdown,Vir Das,2020,Stand-Up Comedy,komedia;stand-up;lockdown;humor;satira;społeczeństwo;polityka;życie codzienne,0,0
 Netflix Afterparty: Najlepsze programy najgorszego roku,David Spade; London Hughes; Fortune Feimster,2020,Komedie,komedia;satyra;telewizja;rozrywka;humor;show;celebrity;internet;programy;analiza,0,0
 Canvas,Frank E. Abney III,2020,Dzieci i Rodzina; Dramaty,animacja;dzieci;przygoda;przyjaźń;rodzina;emocje;dramat;kreatywność;życie,0,0
