@@ -1,0 +1,90 @@
+from google import genai
+import pandas as pd
+import csv
+import io
+import os
+
+MODEL = "gemini-2.0-flash"
+
+client = genai.Client(api_key="AIzaSyDahtdFQjNiFP2QfHifgD81HfL5YKRrYis")
+
+# Load the data
+data = pd.read_csv('data/completed_netflix.csv')
+
+# Open CSV file for writing
+with open('data/data_polish.csv', 'w', newline='', encoding='utf-8') as csvfile:
+    writer = csv.writer(csvfile)
+    # Write header
+    writer.writerow(['name', 'author', 'year', 'genre', 'key_words'])
+    
+    # Process data in batches of 20
+    batch_size = 20
+    total_rows = len(data)
+    
+    for i in range(0, total_rows, batch_size):
+        batch_data = data.iloc[i:i+batch_size]
+        
+        # Create batch prompt
+        batch_text = ""
+        for idx, row in batch_data.iterrows():
+            batch_text += f"Row {idx}: {row.to_string()}\n\n"
+        
+        prompt = f"""Przeanalizuj poniższe dane i wyciągnij informacje o filmach (nie serialach TV). 
+        Dla każdego filmu podaj: tytuł, reżyser, rok, gatunek, słowa kluczowe.
+        
+        Dane do analizy:
+        {batch_text}
+        
+        Zasady:
+        1. Jeśli to serial TV - pomiń (nie zwracaj odpowiedzi)
+        2. Jeśli to film - zwróć dane w formacie CSV
+        3. Wszystkie odpowiedzi w języku polskim
+        4. Gatunki oddzielone średnikiem (;)
+        5. Słowa kluczowe oddzielone średnikiem (;) - podaj 30-50 kluczowych słów opisujących fabułę, postacie lub motywy filmu
+        
+        Format odpowiedzi (dla każdego filmu w nowej linii):
+        "Tytuł","Reżyser",Rok,"Gatunek1;Gatunek2","Słowo1;Słowo2;Słowo3"
+        
+        Przykład:
+        "Matrix","Wachowski Sisters",1999,"Action;Sci-Fi","Neo;Morpheus;Trinity;Wirtualna rzeczywistość;Rewolucja"
+        "Incepcja","Christopher Nolan",2010,"Sci-Fi;Thriller","Sen;Architekt;Totem;Limbo;Ekstrakcja"
+        
+        Zwróć tylko dane w formacie CSV, bez dodatkowych komentarzy."""
+        
+        try:
+            response = client.models.generate_content(
+                model=MODEL,
+                contents=[prompt]
+            )
+            response_text = response.text
+            print(f"\n🔍 Batch {i//batch_size + 1} - Raw response:")
+            print(f"Response length: {len(response_text) if response_text else 0}")
+            print(f"Response preview: {response_text[:200] if response_text else 'None'}")
+            
+            if response_text:
+                response_text = response_text.strip()
+                
+                # Use csv.reader to properly parse the response
+                csv_reader = csv.reader(io.StringIO(response_text))
+                
+                for row in csv_reader:
+                    if len(row) >= 5:
+                        name = row[0].strip()
+                        author = row[1].strip()
+                        year = row[2].strip()
+                        genre = row[3].strip()
+                        key_words = row[4].strip()
+                        
+                        # Only process if it's not empty and not null
+                        if name and name.lower() != 'null':
+                            writer.writerow([name, author, year, genre, key_words])
+                            print(f"✅ Processed: {name}")
+                    else:
+                        print(f"❌ Invalid row format: {row}")
+            
+            print(f"📊 Processed batch {i//batch_size + 1}/{(total_rows + batch_size - 1)//batch_size}")
+            
+        except Exception as e:
+            print(f"❌ Error processing batch {i//batch_size + 1}: {e}")
+
+print("🎉 Data processing completed!")
