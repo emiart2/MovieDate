@@ -1,4 +1,179 @@
 name,author,year,genre,key_words,to_watch,watched
+Incepcja,Christopher Nolan,2010,Science-Fiction;Thrillery;Akcja,Leonardo DiCaprio;Joseph Gordon-Levitt;Ellen Page;Tom Hardy;Ken Watanabe;sny;manipulacja umysłem;kradzież;podświadomość;architektura;akcja;pościgi;psychologia;rzeczywistość;emocje,0,0
+Interstellar,Christopher Nolan,2014,Science-Fiction;Dramaty;Przygodowe,Matthew McConaughey;Anne Hathaway;Jessica Chastain;Michael Caine;Casey Affleck;kosmos;czarne dziury;czas;relatywizm;rodzina;poświęcenie;przyszłość;misja;nadzieja;apokalipsa;Ziemia;przetrwanie,0,0
+E.T.,Steven Spielberg,1982,Science-Fiction;Przygodowe;Familijne,Henry Thomas;Drew Barrymore;Dee Wallace;Peter Coyote;obcy;przyjaźń;dzieciństwo;rodzina;kosmos;ucieczka;emocje;magia;nostalgia,0,0
+Gatunek,Roger Donaldson,1995,Science-Fiction;Thrillery;Horror,Natasha Henstridge;Ben Kingsley;Michael Madsen;Forest Whitaker;Marg Helgenberger;obcy;genetyka;DNA;eksperymenty;kosmici;przetrwanie;seksualność;niebezpieczeństwo;strach;akcja,0,0
+Pamięć absolutna,Paul Verhoeven,1990,Science-Fiction;Akcja;Thrillery,Arnold Schwarzenegger;Sharon Stone;Michael Ironside;Rachel Ticotin;Mars;tożsamość;wspomnienia;manipulacja;korporacje;przyszłość;rewolucja;akcja,0,0
+Piąty element,Luc Besson,1997,Science-Fiction;Przygodowe;Komedia,Bruce Willis;Milla Jovovich;Gary Oldman;Chris Tucker;Ian Holm;przyszłość;kosmos;przygoda;fantasy;miłość;katastrofa;religia;wojna;akcja,0,0
+Grawitacja,Alfonso Cuarón,2013,Science-Fiction;Thrillery;Dramaty,Sandra Bullock;George Clooney;kosmos;astronauci;katastrofa;przetrwanie;samotność;Ziemia;technologia;poświęcenie;emocje,0,0
+Matrix,Lana Wachowski;Lilly Wachowski,1999,Science-Fiction;Akcja;Thrillery,Keanu Reeves;Laurence Fishburne;Carrie-Anne Moss;Hugo Weaving;Joe Pantoliano;wirtualna rzeczywistość;sztuczna inteligencja;cyberpunk;hakowanie;rewolucja;walka;przeznaczenie;filozofia;wolność;kontrola;technologia,0,0
+Matrix Reaktywacja,Lana Wachowski;Lilly Wachowski,2003,Science-Fiction;Akcja;Thrillery,Keanu Reeves;Laurence Fishburne;Carrie-Anne Moss;Hugo Weaving;Jada Pinkett Smith;cyberpunk;rewolucja;system;akcja;filozofia;przeznaczenie;wolność;walka;technologia,0,0
+Matrix Rewolucje,Lana Wachowski;Lilly Wachowski,2003,Science-Fiction;Akcja;Thrillery,Keanu Reeves;Laurence Fishburne;Carrie-Anne Moss;Hugo Weaving;cyberpunk;bitwa;Zion;apokalipsa;rewolucja;przeznaczenie;wolność;technologia,0,0
+Matrix Zmartwychwstania,Lana Wachowski,2021,Science-Fiction;Akcja;Thrillery,Keanu Reeves;Carrie-Anne Moss;Yahya Abdul-Mateen II;Jessica Henwick;Neil Patrick Harris;cyberpunk;nowa rzeczywistość;reset;wolność;przeznaczenie;technologia;emocje,0,0
+Łowca androidów,Ridley Scott,1982,Science-Fiction;Thrillery;Dramaty,Harrison Ford;Rutger Hauer;Sean Young;Edward James Olmos;Daryl Hannah;androidy;replicanty;noir;cyberpunk;tożsamość;człowieczeństwo;przyszłość;korporacje;detektyw,0,0
+Łowca androidów 2049,Dennis Villeneuve,2017,Science-Fiction;Thrillery;Dramaty,Ryan Gosling;Harrison Ford;Ana de Armas;Jared Leto;Robin Wright;androidy;replicanty;tożsamość;człowieczeństwo;cyberpunk;postęp technologiczny;detektyw;śledztwo;filozofia,0,0
+Obcy – ósmy pasażer Nostromo,Ridley Scott,1979,Science-Fiction;Horror;Thrillery,Sigourney Weaver;Tom Skerritt;Veronica Cartwright;Harry Dean Stanton;John Hurt;kosmos;statek kosmiczny;obcy;horror;przetrwanie;strach;potwory;izolacja;walka;paranoja,0,0
+Obcy: Decydujące starcie,James Cameron,1986,Science-Fiction;Horror;Akcja,Sigourney Weaver;Michael Biehn;Lance Henriksen;Bill Paxton;Paul Reiser;obcy;kosmos;wojsko;akcja;przetrwanie;kolonia;strach;potwory;bohaterstwo,0,0
+Obcy 3,David Fincher,1992,Science-Fiction;Horror;Thrillery,Sigourney Weaver;Charles S. Dutton;Charles Dance;Paul McGann;obcy;więzienie;izolacja;przetrwanie;poświęcenie;horror;paranoja,0,0
+Obcy: Przebudzenie,Jean-Pierre Jeunet,1997,Science-Fiction;Horror;Akcja,Sigourney Weaver;Winona Ryder;Ron Perlman;Dan Hedaya;obcy;klonowanie;genetyka;eksperymenty;przetrwanie;akcja;strach,0,0
+Prometeusz,Ridley Scott,2012,Science-Fiction;Horror;Przygodowe,Noomi Rapace;Michael Fassbender;Charlize Theron;Idris Elba;Guy Pearce;kosmos;początki życia;starożytni kosmici;obcy;eksploracja;genetyka;odkrycie,0,0
+Obcy: Przymierze,Ridley Scott,2017,Science-Fiction;Horror;Thrillery,Michael Fassbender;Katherine Waterston;Danny McBride;Billy Crudup;kosmos;kolonizacja;obcy;horror;przetrwanie;genetyka;eksperymenty,0,0
+Terminator,James Cameron,1984,Science-Fiction;Akcja;Thrillery,Arnold Schwarzenegger;Linda Hamilton;Michael Biehn;Paul Winfield;sztuczna inteligencja;cyborg;apokalipsa;czas;przyszłość;rewolucja maszyn;pościg;walka;przeznaczenie,0,0
+Terminator 2: Dzień sądu,James Cameron,1991,Science-Fiction;Akcja;Thrillery,Arnold Schwarzenegger;Linda Hamilton;Edward Furlong;Robert Patrick;sztuczna inteligencja;cyborg;apokalipsa;czas;rewolucja maszyn;ochrona;poświęcenie;akcja;przetrwanie,0,0
+Terminator 3: Bunt maszyn,Jonathan Mostow,2003,Science-Fiction;Akcja;Thrillery,Arnold Schwarzenegger;Nick Stahl;Claire Danes;Kristanna Loken;sztuczna inteligencja;cyborg;apokalipsa;czas;rewolucja maszyn;wojna;akcja,0,0
+Terminator: Ocalenie,McG,2009,Science-Fiction;Akcja;Thrillery,Christian Bale;Sam Worthington;Anton Yelchin;Moon Bloodgood;sztuczna inteligencja;apokalipsa;wojna;maszyny;przetrwanie;akcja;technologia,0,0
+Terminator: Genisys,Alan Taylor,2015,Science-Fiction;Akcja;Thrillery,Arnold Schwarzenegger;Emilia Clarke;Jai Courtney;Jason Clarke;sztuczna inteligencja;cyborg;czas;alternatywna linia czasu;akcja;apokalipsa;przetrwanie,0,0
+Terminator: Mroczne przeznaczenie,Tim Miller,2019,Science-Fiction;Akcja;Thrillery,Linda Hamilton;Arnold Schwarzenegger;Mackenzie Davis;Gabriel Luna;sztuczna inteligencja;cyborg;apokalipsa;czas;ochrona;wojna;przyszłość;akcja,0,0
+Avatar,James Cameron,2009,Science-Fiction;Przygodowe;Dramaty,Sam Worthington;Zoe Saldana;Sigourney Weaver;Stephen Lang;Michelle Rodriguez;kosmos;Pandora;obcy;ekologia;wojna;miłość;przygoda;kolonializm;technologia;konflikt,0,0
+Avatar: Istota wody,James Cameron,2022,Science-Fiction;Przygodowe;Dramaty,Sam Worthington;Zoe Saldana;Sigourney Weaver;Kate Winslet;Stephen Lang;Pandora;podwodny świat;obcy;ekologia;rodzina;przygoda;wojna;technologia;konflikt,0,0
+Gwiezdne wojny: Nowa nadzieja,George Lucas,1977,Science-Fiction;Przygodowe;Akcja,Mark Hamill;Harrison Ford;Carrie Fisher;Alec Guinness;kosmos;rebelianci;imperium;Jedi;Moc;przygoda;bitwa kosmiczna;droidy;Droga Bohatera;konflikt,0,0
+Gwiezdne wojny: Imperium kontratakuje,Irvin Kershner,1980,Science-Fiction;Przygodowe;Akcja,Mark Hamill;Harrison Ford;Carrie Fisher;Billy Dee Williams;Darth Vader;kosmos;imperium;rebelianci;Moc;szkolenie;bitwa;konflikt;sojusze,0,0
+Gwiezdne wojny: Powrót Jedi,Richard Marquand,1983,Science-Fiction;Przygodowe;Akcja,Mark Hamill;Harrison Ford;Carrie Fisher;Billy Dee Williams;Ian McDiarmid;rebelianci;imperium;Moc;Jedi;Sith;bitwa kosmiczna;wybawienie;rodzina;poświęcenie,0,0
+Gwiezdne wojny: Mroczne widmo,George Lucas,1999,Science-Fiction;Przygodowe;Akcja,Liam Neeson;Ewan McGregor;Natalie Portman;Jake Lloyd;kosmos;Senat Galaktyczny;Moc;Jedi;polityka;konflikt;Sith;intrygi;bitwa,0,0
+Gwiezdne wojny: Atak klonów,George Lucas,2002,Science-Fiction;Przygodowe;Akcja,Ewan McGregor;Natalie Portman;Hayden Christensen;Samuel L. Jackson;polityka;Senat;konflikt;Jedi;wojna;klony;miłość;spisek;galaktyka,0,0
+Gwiezdne wojny: Zemsta Sithów,George Lucas,2005,Science-Fiction;Przygodowe;Akcja,Ewan McGregor;Natalie Portman;Hayden Christensen;Ian McDiarmid;upadek;ciemna strona;Moc;Sith;Jedi;wojna;konflikt;przeznaczenie;tragizm,0,0
+Gwiezdne wojny: Przebudzenie Mocy,J.J. Abrams,2015,Science-Fiction;Przygodowe;Akcja,Daisy Ridley;John Boyega;Adam Driver;Harrison Ford;Carrie Fisher;nowa generacja;rebelianci;imperium;Jedi;Moc;bitwa;przygoda;rodzina,0,0
+Gwiezdne wojny: Ostatni Jedi,Rian Johnson,2017,Science-Fiction;Przygodowe;Akcja,Daisy Ridley;Mark Hamill;Adam Driver;John Boyega;Carrie Fisher;Moc;Jedi;konflikt;rodzina;przeznaczenie;walka;nadzieja;intrygi;rebelianci,0,0
+Gwiezdne wojny: Skywalker. Odrodzenie,J.J. Abrams,2019,Science-Fiction;Przygodowe;Akcja,Daisy Ridley;Adam Driver;John Boyega;Oscar Isaac;Moc;Jedi;Sith;imperium;rodzina;bitwa;galaktyka;konflikt;odkupienie,0,0
+Powrót do przyszłości,Robert Zemeckis,1985,Science-Fiction;Przygodowe;Komedia,Michael J. Fox;Christopher Lloyd;Lea Thompson;Crispin Glover;podróże w czasie;przygoda;lata 80;eksperymenty;rodzina;zmiana przeszłości;komedia,0,0
+Powrót do przyszłości II,Robert Zemeckis,1989,Science-Fiction;Przygodowe;Komedia,Michael J. Fox;Christopher Lloyd;Lea Thompson;Thomas F. Wilson;podróże w czasie;przyszłość;alternatywne linie czasu;technologia;konflikt;rodzina;komedia,0,0
+Powrót do przyszłości III,Robert Zemeckis,1990,Science-Fiction;Przygodowe;Komedia,Michael J. Fox;Christo;magia;świat równoległy;bitwa;ziemia;superbohaterowie;marvel,0,0
+Opowieści z Narnii: Lew Czarownica i Stara Szafa,Andrew Adamson,2005,Fantasy;Przygodowe;Familijne,Georgie Henley;Skandar Keynes;William Moseley;Anna Popplewell;Tilda Swinton;James McAvoy;lew;Aslan;czarownica;zima;dzieci;magia;świat równoległy;wojna;przeznaczenie;dobro kontra zło;rodzeństwo;ofiara;przygoda,0,0
+Percy Jackson i Bogowie Olimpijscy: Złodziej Pioruna,Chris Columbus,2010,Fantasy;Przygodowe;Familijne;Akcja,Logan Lerman;Alexandra Daddario;Brandon T. Jackson;Pierce Brosnan;Uma Thurman;Sean Bean;bogowie greccy;Olimp;Posejdon;Zeus;misja;artefakt;piorun;przepowiednia;mitologia;przygoda;nastolatki;heros;świat magiczny;wojna bogów,0,0
+Percy Jackson: Morze Potworów,Thor Freudenthal,2013,Fantasy;Przygodowe;Familijne;Akcja,Logan Lerman;Alexandra Daddario;Brandon T. Jackson;Stanley Tucci;Nathan Fillion;Leven Rambin;morze;potwory;cyklop;Olimp;mitologia;Posejdon;greccy bogowie;przygoda;nastolatki;herosi;przepowiednia;magia;świat równoległy,0,0
+Eragon,Stefen Fangmeier,2006,Fantasy;Przygodowe;Akcja;Familijne,Edward Speleers;Jeremy Irons;Sienna Guillory;Robert Carlyle;John Malkovich;Rachel Weisz;smok;dragon;jeździec smoków;królestwo;walka;zło;imperium;rebelianci;przeznaczenie;magia;elfy;fantasy epickie;przygoda,0,0
+Psychoza,Alfred Hitchcock,1960,Thriller;Horror,morderstwo;tajemnica;napięcie;psychologiczny;motel;zaskoczenie;klasyka kina,0,0
+Okno na podwórze,Alfred Hitchcock,1954,Thriller;Kryminał,inwigilacja;sąsiedzi;podejrzenia;napięcie;klasyka kina,0,0
+Obywatel Kane,Orson Welles,1941,Dramat,dziennikarstwo;tajemnica;życie;retrospekcja;klasyka kina,0,0
+Casablanca,Michael Curtiz,1942,Dramat;Romans,wojna;miłość;poświęcenie;klasyka kina,0,0
+Śniadanie u Tiffany'ego,Blake Edwards,1961,Komedia;Romans,Nowy Jork;romans;styl;Audrey Hepburn;klasyka kina,0,0
+12 gniewnych ludzi,Sidney Lumet,1957,Dramat,sąd;sprawiedliwość;debata;napięcie;klasyka kina,0,0
+W samo południe,Fred Zinnemann,1952,Western,pojedynek;honor;miasteczko;klasyka kina,0,0
+Wielki sen,Howard Hawks,1946,Kryminał;Noir,detektyw;zagadka;mroczny klimat;klasyka kina,0,0
+Wzgórze nadziei,Frank Capra,1937,Dramat;Komedia,polityka;idealizm;społeczeństwo;klasyka kina,0,0
+Ziemia obiecana,Andrzej Wajda,1975,Dramat,przemysł;Łódź;ambicja;kapitalizm;klasyka kina,0,0
+Lot nad kukułczym gniazdem,Milos Forman,1975,Dramat;Psychologiczny,szpital psychiatryczny;władza;bunt;przemoc;społeczeństwo;klasyka kina,0,0
+Ojciec chrzestny,Francis Ford Coppola,1972,Dramat;Kryminał,mafia;rodzina;moc;zdrada;honor;klasyka kina,0,0
+Ojciec chrzestny II,Francis Ford Coppola,1974,Dramat;Kryminał,mafia;rodzina;moc;zdrada;honor;klasyka kina,0,0
+Lot nad kukułczym gniazdem,Milos Forman,1975,Dramat;Psychologiczny,szpital psychiatryczny;władza;bunt;przemoc;społeczeństwo;klasyka kina,0,0
+Siedmiu samurajów,Akira Kurosawa,1954,Akcja;Przygodowy,bitwa;honor;samuraje;strategia;społeczność;klasyka kina,0,0
+Lawrence z Arabii,David Lean,1962,Przygodowy;Biograficzny,wojna;Arabia;polityka;strategia;klasyka kina,0,0
+Ben-Hur,William Wyler,1959,Przygodowy;Historyczny,starożytność;arena;zemsta;honor;klasyka kina,0,0
+Doktor Żywago,David Lean,1965,Dramat;Romans,rewolucja;miłość;Rosja;wojna;klasyka kina,0,0
+Mechaniczna pomarańcza,Stanley Kubrick,1971,Dramat;Sci-Fi;Psychologiczny,przemoc;kontrola;społeczeństwo;klasyka kina;przestępczość,0,0
+2001: Odyseja kosmiczna,Stanley Kubrick,1968,Sci-Fi;Przygodowy,kosmos;sztuczna inteligencja;eksploracja;tajemnica;klasyka kina;filozofia,0,0
+Lot nad kukułczym gniazdem,Milos Forman,1975,Dramat;Psychologiczny,szpital psychiatryczny;władza;bunt;przemoc;społeczeństwo;klasyka kina,0,0
+Ojciec chrzestny,Francis Ford Coppola,1972,Dramat;Kryminał,mafia;rodzina;moc;zdrada;honor;klasyka kina,0,0
+Ojciec chrzestny II,Francis Ford Coppola,1974,Dramat;Kryminał,mafia;rodzina;moc;zdrada;honor;klasyka kina,0,0
+Lot nad kukułczym gniazdem,Milos Forman,1975,Dramat;Psychologiczny,szpital psychiatryczny;władza;bunt;przemoc;społeczeństwo;klasyka kina,0,0
+Siedmiu samurajów,Akira Kurosawa,1954,Akcja;Przygodowy,bitwa;honor;samuraje;strategia;społeczność;klasyka kina,0,0
+Lawrence z Arabii,David Lean,1962,Przygodowy;Biograficzny,wojna;Arabia;polityka;strategia;klasyka kina,0,0
+Ben-Hur,William Wyler,1959,Przygodowy;Historyczny,starożytność;arena;zemsta;honor;klasyka kina,0,0
+Doktor Żywago,David Lean,1965,Dramat;Romans,rewolucja;miłość;Rosja;wojna;klasyka kina,0,0
+Mechaniczna pomarańcza,Stanley Kubrick,1971,Dramat;Sci-Fi;Psychologiczny,przemoc;kontrola;społeczeństwo;klasyka kina;przestępczość,0,0
+2001: Odyseja kosmiczna,Stanley Kubrick,1968,Sci-Fi;Przygodowy,kosmos;sztuczna inteligencja;eksploracja;tajemnica;klasyka kina;filozofia,0,0
+Shrek,Andrew Adamson;Vicky Jenson,2001,Animacja;Komedia;Przygodowy,ogr;księżniczka;przyjaźń;miłość;przygoda;magia;humor;fantasy;fairy tale;dramat rodzinny;zabawa;humor satyryczny;klasyka animacji,0,0
+Shrek 2,Andrew Adamson;Kelly Asbury;Conrad Vernon,2004,Animacja;Komedia;Przygodowy,ogr;księżniczka;przyjaźń;miłość;przygoda;magia;humor;fantasy;fairy tale;klasyka animacji;kontynuacja;zabawa,0,0
+Shrek Trzeci,Chris Miller,2007,Animacja;Komedia;Przygodowy,ogr;księżniczka;przyjaźń;miłość;przygoda;magia;humor;fantasy;fairy tale;kontynuacja;klasyka animacji;zabawa,0,0
+Shrek Forever,Mike Mitchell,2010,Animacja;Komedia;Przygodowy,ogr;księżniczka;przyjaźń;miłość;przygoda;magia;humor;fantasy;fairy tale;kontynuacja;klasyka animacji;zabawa,0,0
+Kung Fu Panda,Mark Osborne;John Stevenson,2008,Animacja;Komedia;Przygodowy;panda;mistrz sztuk walki;przyjaźń;przygoda;humor;rodzina;odwaga;klasyka animacji;fantasy,0,0
+Kung Fu Panda 2,Jennifer Yuh,2011,Animacja;Komedia;Przygodowy;panda;mistrz sztuk walki;przyjaźń;przygoda;humor;rodzina;odwaga;kontynuacja;klasyka animacji,0,0
+Kung Fu Panda 3,Jennifer Yuh;Alessandro Carloni,2016,Animacja;Komedia;Przygodowy;panda;mistrz sztuk walki;przyjaźń;przygoda;humor;rodzina;odwaga;kontynuacja;klasyka animacji,0,0
+Barbie: Princess Charm School,William Lau,2011,Animacja;Familijny;Fantasy,księżniczka;przyjaźń;szkoła;magia;przygoda;rodzina;klasyka animacji;dziewczynki,0,0
+Barbie: Fairytopia,Walter P. Martishius,2005,Animacja;Familijny;Fantasy,wróżka;magia;przygoda;przyjaźń;rodzina;fantasy;klasyka animacji;dziewczynki,0,0
+Minionki, Pierre Coffin;Kyle Balda,2015,Animacja;Komedia;Familijny,minionki;humor;przygoda;zło;przyjaźń;rodzina;zabawa;klasyka animacji,0,0
+Minionki: Wejście Gru,Kyle Balda;Brad Ableson,2022,Animacja;Komedia;Familijny,minionki;humor;przygoda;zło;przyjaźń;rodzina;prequel;zabawa;klasyka animacji,0,0
+Jak wytresować smoka,Dean DeBlois;Chris Sanders,2010,Animacja;Przygodowy;Familijny,smok;przygoda;przyjaźń;rodzina;fantasy;humor;magia;odwaga;klasyka animacji;dramat;epicka przygoda,0,0
+Jak wytresować smoka 2,Dean DeBlois,2014,Animacja;Przygodowy;Familijny,smok;przygoda;przyjaźń;rodzina;fantasy;humor;magia;odwaga;kontynuacja;klasyka animacji;dramat;epicka przygoda,0,0
+Jak wytresować smoka 3,Dean DeBlois,2019,Animacja;Przygodowy;Familijny,smok;przygoda;przyjaźń;rodzina;fantasy;humor;magia;odwaga;kontynuacja;klasyka animacji;dramat;epicka przygoda,0,0
+Toy Story,John Lasseter,1995,Animacja;Komedia;Familijny,zabawki;przyjaźń;humor;przygoda;rodzina;magia;klasyka animacji;fantasy;emocje;odwaga,0,0
+Toy Story 2,John Lasseter,1999,Animacja;Komedia;Familijny,zabawki;przyjaźń;humor;przygoda;rodzina;magia;kontynuacja;klasyka animacji;fantasy;emocje;odwaga,0,0
+Toy Story 3,Lee Unkrich,2010,Animacja;Komedia;Familijny,zabawki;przyjaźń;humor;przygoda;rodzina;magia;kontynuacja;klasyka animacji;fantasy;emocje;odwaga,0,0
+Toy Story 4,Josh Cooley,2019,Animacja;Komedia;Familijny,zabawki;przyjaźń;humor;przygoda;rodzina;magia;kontynuacja;klasyka animacji;fantasy;emocje;odwaga,0,0
+Coco,Lee Unkrich;Adrian Molina,2017,Animacja;Familijny;Fantasy;Muzyczny,muzyka;przygoda;rodzina;magia;emocje;fantasy;odwaga;kultura;tradycje;klasyka animacji;humor,0,0
+Iniemamocni,Brad Bird,2004,Animacja;Przygodowy;Familijny;Superbohaterowie,superbohaterowie;rodzina;przygoda;humor;akcja;emocje;klasyka animacji;odwaga;przyjaźń;fantasy,0,0
+Iniemamocni 2,Brad Bird,2018,Animacja;Przygodowy;Familijny;Superbohaterowie,superbohaterowie;rodzina;przygoda;humor;akcja;emocje;kontynuacja;klasyka animacji;odwaga;przyjaźń;fantasy,0,0
+Czarownica,Robert Stromberg,2014,Animacja;Fantasy;Familijny,czary;magia;przygoda;księżniczka;klasyka animacji;humor;fantasy;dramat;emocje,0,0
+Madagaskar,Eric Darnell;Tom McGrath,2005,Animacja;Komedia;Familijny,zwierzęta;przygoda;humor;przyjaźń;rodzina;klasyka animacji;podróż;zoo;emocje;fantasy,0,0
+Madagaskar 2,Eric Darnell;Tom McGrath,2008,Animacja;Komedia;Familijny,zwierzęta;przygoda;humor;przyjaźń;rodzina;kontynuacja;klasyka animacji;podróż;zoo;emocje;fantasy,0,0
+Madagaskar 3: Europejskie wakacje,Eric Darnell;Tom McGrath,2012,Animacja;Komedia;Familijny,zwierzęta;przygoda;humor;przyjaźń;rodzina;kontynuacja;klasyka animacji;podróż;cyrk;emocje;fantasy,0,0
+Pingwiny z Madagaskaru,Simon J. Smith;Eric Darnell,2014,Animacja;Komedia;Familijny,pingwiny;humor;przygoda;przyjaźń;zwierzęta;kontynuacja;klasyka animacji;podróż;emocje,0,0
+Rio,Carlos Saldanha,2011,Animacja;Komedia;Familijny;Muzyczny,ptaki;przygoda;humor;przyjaźń;rodzina;muzyka;klasyka animacji;emocje;podróż;fantasy,0,0
+Rio 2,Carlos Saldanha,2014,Animacja;Komedia;Familijny;Muzyczny,ptaki;przygoda;humor;przyjaźń;rodzina;kontynuacja;muzyka;klasyka animacji;emocje;podróż;fantasy,0,0
+Sekretne życie zwierzaków domowych,Chris Renaud;Yarrow Cheney,2016,Animacja;Komedia;Familijny,zwierzęta;przygoda;humor;przyjaźń;klasyka animacji;rodzina;tajemnice;dom;emocje;fantasy,0,0
+Sekretne życie zwierzaków domowych 2,Chris Renaud;Jonathan del Val,2019,Animacja;Komedia;Familijny,zwierzęta;przygoda;humor;przyjaźń;klasyka animacji;rodzina;tajemnice;dom;kontynuacja;emocje;fantasy,0,0
+Thor: Mroczny Świat,Alan Taylor,2013,Fantasy;Akcja;Przygodowe;Superbohaterskie,Chris Hemsworth;Natalie Portman;Tom Hiddleston;Christopher Eccleston;Anthony Hopkins;ciemne elfy;Asgard;świat ciemności;bitwa;magia;mitologia;przeznaczenie;Loki;superbohaterowie;marvel,0,0
+Thor: Ragnarok,Taika Waititi,2017,Fantasy;Akcja;Przygodowe;Superbohaterskie,Chris Hemsworth;Tom Hiddleston;Cate Blanchett;Mark Ruffalo;Tessa Thompson;Jeff Goldblum;Hela;koniec świata;Ragnarok;Asgard;Loki;Hulk;bitwa;bogowie;mitologia nordycka;marvel;humor;apokalipsa,0,0
+Thor: Miłość i Grom,Taika Waititi,2022,Fantasy;Akcja;Przygodowe;Superbohaterskie,Chris Hemsworth;Natalie Portman;Tessa Thompson;Christian Bale;Russell Crowe;bogowie;Gorr Rzeźnik Bogów;miłość;Asgard;Jane Foster;Młot Mjolnir;walki;marvel;superbohaterowie;mitologia;światy równoległe,0,0
+Beowulf,Robert Zemeckis,2007,Fantasy;Akcja;Epickie;Animowane,Ray Winstone;Angelina Jolie;Anthony Hopkins;Robin Wright;John Malkovich;Grendel;potwór;epos;wojownik;król;legenda;bitwa;skarb;zdrada;mitologia nordycka;ciemność;heros,0,0
+Trzynasty Wojownik,John McTiernan,1999,Historyczne;Przygodowe;Akcja;Epickie,Antonio Banderas;Vladimir Kulich;Dennis Storhøi;Omar Sharif;Diane Venora;wikingowie;mitologia nordycka;legenda;przeznaczenie;wojownicy;bitwa;ciemność;potwory;plemiona;skandynawia;średniowiecze;przygoda,0,0
+Opowieści z Narnii: Książę Kaspian,Andrew Adamson,2008,Fantasy;Przygodowe;Familijne,Ben Barnes;Georgie Henley;Skandar Keynes;William Moseley;Anna Popplewell;Peter Dinklage;książę;walka;Narnia;rodzeństwo;powrót;magia;bitwa;sojusze;przeznaczenie;odwaga;smutek;kraina fantasy;historia,0,0
+Opowieści z Narnii: Podróż Wędrowca do Świtu,Michael Apted,2010,Fantasy;Przygodowe;Familijne,Ben Barnes;Georgie Henley;Skandar Keynes;Will Poulter;Simon Pegg;żaglowiec;podróż;morze;wyspa;magia;przygoda;przeznaczenie;Narnia;rodzeństwo;odwaga;dobro kontra zło;świat równoległy;smok,0,0
+Złoty Kompas,Chris Weitz,2007,Fantasy;Przygodowe;Epickie,Dakota Blue Richards;Nicole Kidman;Daniel Craig;Eva Green;Sam Elliott;magia;kompas;artefakt;świat równoległy;panserbjorn;niedźwiedź pancerny;dzieciństwo;przeznaczenie;walka;kościół;manipulacja;podróż;ciemny świat,0,0
+Kroniki Spiderwick,Mark Waters,2008,Fantasy;Przygodowe;Familijne,Freddie Highmore;Sarah Bolger;Mary-Louise Parker;Nick Nolte;Seth Rogen;księga;elfy;trolle;gobliny;rodzeństwo;świat magiczny;dom;sekrety;walka;przygoda;dzieci;magia;ciemność;przeznaczenie;fantasy rodzinne,0,0
+Władca Pierścieni: Drużyna Pierścienia,Peter Jackson,2001,Fantasy;Przygodowe;Epickie,Elijah Wood;Ian McKellen;Viggo Mortensen;Sean Astin;Orlando Bloom;pierścień;podróż;przygoda;elfy;krasnoludy;ludzie;hobbit;Gandalf;Sauron;wojna;drużyna;przyjaźń;magia;walka;przeznaczenie,0,0
+Władca Pierścieni: Dwie Wieże,Peter Jackson,2002,Fantasy;Przygodowe;Epickie,Elijah Wood;Ian McKellen;Viggo Mortensen;Sean Astin;Orlando Bloom;hobbit;wojna;magia;elfy;krasnoludy;ludzie;Isengard;Saruman;bitwa;przyjaźń;sojusze;przeznaczenie;podróż,0,0
+Władca Pierścieni: Powrót Króla,Peter Jackson,2003,Fantasy;Przygodowe;Epickie,Elijah Wood;Ian McKellen;Viggo Mortensen;Sean Astin;Orlando Bloom;hobbit;Sauron;Mordor;wojna;elfy;krasnoludy;ludzie;bitwa;przeznaczenie;ofiara;magia;drużyna;przyjaźń;korona,0,0
+Hobbit: Niezwykła podróż,Peter Jackson,2012,Fantasy;Przygodowe;Epickie,Martin Freeman;Ian McKellen;Richard Armitage;Cate Blanchett;hobbit;smok;podróż;elfy;krasnoludy;magia;Gandalf;wyprawa;przygoda;artefakty;smaug;walka;drużyna;skarb,0,0
+Hobbit: Pustkowie Smauga,Peter Jackson,2013,Fantasy;Przygodowe;Epickie,Martin Freeman;Ian McKellen;Richard Armitage;Benedict Cumberbatch;hobbit;smok;skarb;magia;elfy;krasnoludy;przygoda;wyprawa;Smaug;walka;przeznaczenie;artefakty;Gandalf,0,0
+Hobbit: Bitwa Pięciu Armii,Peter Jackson,2014,Fantasy;Przygodowe;Epickie,Martin Freeman;Ian McKellen;Richard Armitage;Luke Evans;hobbit;wojna;smok;elfy;krasnoludy;ludzie;bitwa;magia;przeznaczenie;skarb;ofiara;przyjaźń;smok,0,0
+Wiedźmin: Zmora Wilka,Kwang Il Han,2021,Fantasy;Animacje;Akcja,Theo James;Lara Pulver;Mary McDonnell;Graham McTavish;wiedźmin;potwory;magia;mutacje;szkółka wiedźminów;polowania;walka;ciemny świat;elfy;czarodziejki;wojna;przeznaczenie;ofiara;przygoda,0,0
+Wiedźmin: Rodowód Krwi,Declan de Barra,2022,Fantasy;Animacje;Akcja,Michelle Yeoh;Sophia Brown;Laurence O'Fuarain;Mirren Mack;elfy;magia;starożytność;wiedźmini;początki;mutacje;walka;świat fantasy;artefakty;wojna;ciemność;historia;przeznaczenie,0,0
+Star Trek, J.J. Abrams,2009,Science-Fiction;Przygodowe;Akcja,Chris Pine;Zachary Quinto;Zoe Saldana;Karl Urban;kosmos;Federacja;Enterprise;przygoda;wojna;czas;alternatywna linia;technologia,0,0
+Igrzyska śmierci,Gary Ross,2012,Science-Fiction;Thrillery;Dramaty,Jennifer Lawrence;Josh Hutcherson;Liam Hemsworth;Woody Harrelson;igrzyska;areny;walka o przetrwanie;dystrykty;rebelia;miłość;polityka;totalitaryzm;ofiara;rodzina;przyjaźń;przemoc;walka;konflikt;wolność,0,0
+Igrzyska śmierci: W pierścieniu ognia,Francis Lawrence,2013,Science-Fiction;Thrillery;Dramaty,Jennifer Lawrence;Josh Hutcherson;Liam Hemsworth;Donald Sutherland;igrzyska;arena;rebelia;przetrwanie;ofiara;walka;system;propaganda;polityka;miłość;przyjaźń;spisek;totalitaryzm,0,0
+Igrzyska śmierci: Kosogłos. Część 1,Francis Lawrence,2014,Science-Fiction;Thrillery;Dramaty,Jennifer Lawrence;Julianne Moore;Josh Hutcherson;Liam Hemsworth;rebelia;propaganda;wojna;system;ofiara;przywództwo;poświęcenie;wolność;polityka;manipulacja;walka;wojna domowa;miłość,0,0
+Igrzyska śmierci: Kosogłos. Część 2,Francis Lawrence,2015,Science-Fiction;Thrillery;Dramaty,Jennifer Lawrence;Josh Hutcherson;Liam Hemsworth;Donald Sutherland;rebelia;wojna;ofiara;polityka;system;przemoc;wolność;konflikt;manipulacja;przetrwanie;dyktatura;poświęcenie;rodzina,0,0
+Igrzyska śmierci: Ballada ptaków i węży,Francis Lawrence,2023,Science-Fiction;Thrillery;Dramaty,Tom Blyth;Rachel Zegler;Peter Dinklage;Hunter Schafer;igrzyska;początki;dyktatura;władza;system;polityka;manipulacja;przemoc;areny;ofiara;miłość;przetrwanie,0,0
+Harry Potter i Kamień Filozoficzny,Chris Columbus,2001,Fantasy;Przygodowe;Familijne,Daniel Radcliffe;Emma Watson;Rupert Grint;Alan Rickman;Hogwart;magia;czarodzieje;przyjaźń;szkoła;czary;kamień filozoficzny;przygoda;rodzina;dobro kontra zło,0,0
+Harry Potter i Komnata Tajemnic,Chris Columbus,2002,Fantasy;Przygodowe;Familijne,Daniel Radcliffe;Emma Watson;Rupert Grint;Kenneth Branagh;Hogwart;magia;czary;przyjaźń;tajemnica;potwory;komnata;przygoda;rodzina,0,0
+Harry Potter i Więzień Azkabanu,Alfonso Cuarón,2004,Fantasy;Przygodowe;Familijne,Daniel Radcliffe;Emma Watson;Rupert Grint;Gary Oldman;Hogwart;czary;magia;więzienie;dementorzy;przygoda;rodzina;czas;przyjaźń,0,0
+Harry Potter i Czara Ognia,Mike Newell,2005,Fantasy;Przygodowe;Familijne,Daniel Radcliffe;Emma Watson;Rupert Grint;Robert Pattinson;Hogwart;turniej;czary;magia;przygoda;przyjaźń;tragedia;wojna;rodzina,0,0
+Harry Potter i Zakon Feniksa,David Yates,2007,Fantasy;Przygodowe;Familijne,Daniel Radcliffe;Emma Watson;Rupert Grint;Helena Bonham Carter;Hogwart;zakon;walka;czary;magia;wojna;rodzina;przyjaźń;rebelia,0,0
+Harry Potter i Książę Półkrwi,David Yates,2009,Fantasy;Przygodowe;Familijne,Daniel Radcliffe;Emma Watson;Rupert Grint;Tom Felton;Hogwart;czary;magia;wojna;rodzina;miłość;przyjaźń;tragedia;sekrety,0,0
+Harry Potter i Insygnia Śmierci: Część 1,David Yates,2010,Fantasy;Przygodowe;Familijne,Daniel Radcliffe;Emma Watson;Rupert Grint;Ralph Fiennes;czary;magia;wojna;rodzina;przyjaźń;poświęcenie;ucieczka;przygoda;artefakty,0,0
+Harry Potter i Insygnia Śmierci: Część 2,David Yates,2011,Fantasy;Przygodowe;Familijne,Daniel Radcliffe;Emma Watson;Rupert Grint;Ralph Fiennes;czary;magia;wojna;rodzina;przyjaźń;ofiara;bitwa;przeznaczenie;dobro kontra zło,0,0
+Niezgodna,Neil Burger,2014,Science-Fiction;Przygodowe;Dramaty,Shailene Woodley;Theo James;Kate Winslet;Miles Teller;społeczeństwo;frakcje;system;rebelianci;miłość;przyjaźń;przetrwanie;walka;tożsamość,0,0
+Zbuntowana,Robert Schwentke,2015,Science-Fiction;Przygodowe;Dramaty,Shailene Woodley;Theo James;Octavia Spencer;Kate Winslet;społeczeństwo;system;rebelianci;konflikt;walka;przetrwanie;polityka;miłość,0,0
+Wierna,Robert Schwentke,2016,Science-Fiction;Przygodowe;Dramaty,Shailene Woodley;Theo James;Zoë Kravitz;Jeff Daniels;społeczeństwo;system;rebelianci;eksperyment;prawda;miłość;przetrwanie;wojna;ofiara,0,0
+Więzień labiryntu,Wes Ball,2014,Science-Fiction;Thrillery;Przygodowe,Dylan O'Brien;Kaya Scodelario;Thomas Brodie-Sangster;Will Poulter;labirynt;eksperyment;przetrwanie;tajemnica;ofiara;przyjaźń;system;walka;akcja,0,0
+Więzień labiryntu: Próby ognia,Wes Ball,2015,Science-Fiction;Thrillery;Przygodowe,Dylan O'Brien;Kaya Scodelario;Giancarlo Esposito;Rosa Salazar;postapokalipsa;pustynia;eksperyment;przetrwanie;system;walka;ofiara;rebelianci,0,0
+Więzień labiryntu: Lek na śmierć,Wes Ball,2018,Science-Fiction;Thrillery;Przygodowe,Dylan O'Brien;Kaya Scodelario;Thomas Brodie-Sangster;Walton Goggins;postapokalipsa;eksperyment;przetrwanie;system;rebelianci;ofiara;akcja;wojna,0,0
+Szklana pułapka,John McTiernan,1988,Akcja;Thrillery,Bruce Willis;Alan Rickman;Alexander Godunov;Bonnie Bedelia;terroryści;akcja;budynek;FBI;policja;Nowy Jork;przetrwanie;bohater;walka;przemoc,0,0
+Szklana pułapka 2,Renny Harlin,1990,Akcja;Thrillery,Bruce Willis;Bonnie Bedelia;William Sadler;Franco Nero;lotnisko;terroryści;akcja;samoloty;policja;bohater;walka;przetrwanie,0,0
+Szklana pułapka 3,John McTiernan,1995,Akcja;Thrillery,Bruce Willis;Samuel L. Jackson;Jeremy Irons;policja;terroryści;miasto;akcja;FBI;bohater;walka;przetrwanie,0,0
+Szklana pułapka 4.0,Len Wiseman,2007,Akcja;Thrillery,Bruce Willis;Justin Long;Timothy Olyphant;Maggie Q;hakowanie;terroryści;technologia;akcja;walka;bohater;policja;przetrwanie,0,0
+Szklana pułapka 5,John Moore,2013,Akcja;Thrillery,Bruce Willis;Jai Courtney;Sebastian Koch;Rosja;akcja;terroryści;bohater;rodzina;przemoc;walka;FBI;przetrwanie,0,0
+Kod da Vinci,Ron Howard,2006,Thrillery;Kryminały;Dramaty,Tom Hanks;Audrey Tautou;Ian McKellen;Jean Reno;religia;spisek;sztuka;historia;tajemnica;zagadki;symbole;kościół;konspiracja;akcja,0,0
+Anioły i demony,Ron Howard,2009,Thrillery;Kryminały;Dramaty,Tom Hanks;Ewan McGregor;Ayelet Zurer;Stellan Skarsgård;religia;Watykan;spisek;zagadki;historia;ofiara;konspiracja;akcja;wojna;polityka,0,0
+Inferno,Ron Howard,2016,Thrillery;Kryminały;Dramaty,Tom Hanks;Felicity Jones;Ben Foster;Omar Sy;religia;spisek;zagadki;historia;świat;konspiracja;akcja;polityka;wirusa;ofiara;katastrofa,0,0
+Star Trek: W ciemność,J.J. Abrams,2013,Science-Fiction;Przygodowe;Akcja,Chris Pine;Zachary Quinto;Benedict Cumberbatch;Zoe Saldana;Federacja;Enterprise;terroryzm;zemsta;konflikt;przyjaźń;kosmos,0,0
+Star Trek: W nieznane,Justin Lin,2016,Science-Fiction;Przygodowe;Akcja,Chris Pine;Zachary Quinto;Zoe Saldana;Idris Elba;Federacja;Enterprise;kosmos;nowe światy;eksploracja;konflikt;przygoda,0,0
+Obcy – ósmy pasażer Nostromo,Ridley Scott,1979,Science-Fiction;Horror;Thrillery,Sigourney Weaver;Tom Skerritt;John Hurt;Ian Holm;kosmos;statek kosmiczny;obcy;przetrwanie;horror;groza;technologia;krew;paranoja,0,0
+Obcy – decydujące starcie,James Cameron,1986,Science-Fiction;Horror;Akcja,Sigourney Weaver;Michael Biehn;Lance Henriksen;Bill Paxton;kosmos;obcy;marines;akcja;horror;technologia;wojna;matka;dziecko;przetrwanie,0,0
+Obcy 3,David Fincher,1992,Science-Fiction;Horror;Thrillery,Sigourney Weaver;Charles S. Dutton;Charles Dance;Paul McGann;więzienie;obcy;przetrwanie;ofiara;religia;kosmos;horror;ciemność,0,0
+Obcy: Przebudzenie,Jean-Pierre Jeunet,1997,Science-Fiction;Horror;Thrillery,Sigourney Weaver;Winona Ryder;Ron Perlman;Dan Hedaya;klonowanie;obcy;eksperymenty;kosmos;horror;mutacje;przetrwanie,0,0
+Prometeusz,Ridley Scott,2012,Science-Fiction;Horror;Thrillery,Noomi Rapace;Michael Fassbender;Charlize Theron;Idris Elba;kosmos;obcy;starożytna cywilizacja;eksploracja;horror;technologia;przetrwanie,0,0
+Obcy: Przymierze,Ridley Scott,2017,Science-Fiction;Horror;Thrillery,Michael Fassbender;Katherine Waterston;Billy Crudup;Danny McBride;kosmos;kolonizacja;obcy;androidy;horror;technologia;mutacje;przetrwanie,0,0
+Predator,John McTiernan,1987,Science-Fiction;Akcja;Thrillery,Arnold Schwarzenegger;Carl Weathers;Bill Duke;Jesse Ventura;dżungla;obcy;polowanie;akcja;komando;technologia;walka;przetrwanie,0,0
+Predator 2,Stephen Hopkins,1990,Science-Fiction;Akcja;Thrillery,Danny Glover;Gary Busey;Bill Paxton;Maria Conchita Alonso;miasto;Los Angeles;obcy;polowanie;akcja;technologia;detektyw;walka,0,0
+Predators,Nimród Antal,2010,Science-Fiction;Akcja;Thrillery,Adrien Brody;Alice Braga;Topher Grace;Laurence Fishburne;planeta;obcy;polowanie;łowcy;akcja;przetrwanie;technologia,0,0
+Predator: Prey,Dan Trachtenberg,2022,Science-Fiction;Akcja;Thrillery,Amber Midthunder;Dakota Beavers;Dane DiLiegro;Harlan Blayne Kytwayhat;prehistoria;Indianie;obcy;polowanie;przetrwanie;akcja;technologia,0,0
+Obcy kontra Predator,Paul W.S. Anderson,2004,Science-Fiction;Horror;Akcja,Sanaa Lathan;Lance Henriksen;Raoul Bova;Ewen Bremner;antarktyda;świątynia;obcy;predator;walka;horror;technologia,0,0
+Obcy kontra Predator 2: Requiem,Colin Strause;Greg Strause,2007,Science-Fiction;Horror;Akcja,Steven Pasquale;Reiko Aylesworth;John Ortiz;Johnny Lewis;miasteczko;horror;obcy;predator;walka;technologia;apokalipsa,0,0
+Mad Max,George Miller,1979,Science-Fiction;Akcja;Thrillery,Mel Gibson;Joanne Samuel;Hugh Keays-Byrne;Steve Bisley;postapokalipsa;samochody;motocykle;zemsta;przetrwanie;akcja;Australia,0,0
+Mad Max 2: Wojownik szos,George Miller,1981,Science-Fiction;Akcja;Thrillery,Mel Gibson;Bruce Spence;Vernon Wells;Michael Preston;postapokalipsa;akcja;benzyna;samochody;gangi;przetrwanie;Australia,0,0
+Mad Max pod Kopułą Gromu,George Miller;George Ogilvie,1985,Science-Fiction;Akcja;Thrillery,Mel Gibson;Tina Turner;Bruce Spence;Adam Cockburn;postapokalipsa;miasto;przetrwanie;gangi;akcja;wojna;Australia,0,0
+Mad Max: Na drodze gniewu,George Miller,2015,Science-Fiction;Akcja;Thrillery,Tom Hardy;Charlize Theron;Nicholas Hoult;Hugh Keays-Byrne;postapokalipsa;akcja;pustynia;samochody;pościgi;przetrwanie;wojna;Australia,0,0
+Diuna,David Lynch,1984,Science-Fiction;Przygodowe;Dramaty,Kyle MacLachlan;Sting;Francesca Annis;Jürgen Prochnow;kosmos;pustynia;przyprawa;polityka;wojna;mistycyzm;przeznaczenie;prorok;planeta,0,0
+Diuna: Część pierwsza,Denis Villeneuve,2021,Science-Fiction;Przygodowe;Dramaty,Timothée Chalamet;Zendaya;Rebecca Ferguson;Oscar Isaac;kosmos;Arrakis;pustynia;przyprawa;polityka;wojna;rodzina;przeznaczenie;mistycyzm,0,0
+Diuna: Część druga,Denis Villeneuve,2024,Science-Fiction;Przygodowe;Dramaty,Timothée Chalamet;Zendaya;Rebecca Ferguson;Josh Brolin;kosmos;Arrakis;pustynia;przyprawa;polityka;wojna;rodzina;przeznaczenie;mistycyzm;prorok,0,0
+Star Trek,Pozn. Robert Wise,1979,Science-Fiction;Przygodowe;Akcja,William Shatner;Leonard Nimoy;DeForest Kelley;James Doohan;kosmos;Federacja;Enterprise;eksploracja;obcy;technologia;przygoda;dyplomacja,0,0
+Star Trek II: Gniew Khana,Nicholas Meyer,1982,Science-Fiction;Przygodowe;Akcja,William Shatner;Leonard Nimoy;Ricardo Montalbán;Walter Koenig;kosmos;Federacja;Enterprise;zemsta;konflikt;przyjaźń;poświęcenie,0,0
+Star Trek III: W poszukiwaniu Spocka,Leonard Nimoy,1984,Science-Fiction;Przygodowe;Akcja,William Shatner;Leonard Nimoy;DeForest Kelley;James Doohan;poszukiwania;przyjaźń;lojalność;kosmos;Enterprise;odrodzenie,0,0
+Star Trek IV: Powrót na Ziemię,Leonard Nimoy,1986,Science-Fiction;Przygodowe;Komedia,William Shatner;Leonard Nimoy;Catherine Hicks;DeForest Kelley;czas;ekologia;Ziemia;wieloryby;przyszłość;przygoda;humor,0,0
+Star Trek V: Ostateczna granica,William Shatner,1989,Science-Fiction;Przygodowe;Akcja,William Shatner;Leonard Nimoy;DeForest Kelley;Laurence Luckinbill;kosmos;poszukiwanie boga;misja;przyjaźń;konflikt;Enterprise,0,0
+Star Trek VI: Wojna o pokój,Nicholas Meyer,1991,Science-Fiction;Przygodowe;Akcja,William Shatner;Leonard Nimoy;DeForest Kelley;Christopher Plummer;Federacja;Klingoni;dyplomacja;konflikt;pokój;polityka,0,0
 My Little Pony: Nowe pokolenie,Robert Cullen i José Luis Ucha,2021,film animowany;dla dzieci;familijny;przygodowy;fantasy,Vanessa Hudgens;Kimiko Glenn;James Marsden;Sofia Carson;Liza Koshy;Ken Jeong;Elizabeth Perkins;Jane Krakowski;Michael McKean;Phil LaMarr;kucyki pony;magia;przyjaźń;przygoda;harmonia,0,0
 Sankofa,Haile Gerima,1993,dramat;film niezależny;film międzynarodowy;historyczny;społeczny,Kofi Ghanaba;Oyafunmike Ogunlano;Alexandra Duah;Nick Medley;Mutabaruka;Afemo Omilami;Reggie Carter;mzuri;niewolnictwo;Afryka;handel niewolnikami;tożsamość;walka o wolność,0,0
 Gwiezdny ptak,Theodore Melfi,2021,komedia;dramat;obyczajowy,Melissa McCarthy;Chris O'Dowd;Kevin Kline;Timothy Olyphant;Daveed Diggs;Skyler Gisondo;Laura Harrier;Rosalind Chao;Kimberly Quinn;Loretta Devine;Ravi Kapoor;utrata;żałoba;miłość;małżeństwo;nadzieja;ogród;ptaki,0,0
