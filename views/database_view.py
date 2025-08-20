@@ -74,8 +74,9 @@ class DatabaseView:
 
         # menu kontekstowe
         self.menu = tk.Menu(self.frame, tearoff=0)
-        self.menu.add_command(label="Oznacz jako do obejrzenia", command=self.mark_to_watch)
-        self.menu.add_command(label="Oznacz jako obejrzany", command=self.mark_watched)
+        self.menu.add_command(label="Do obejrzenia", command=self.mark_to_watch)
+        self.menu.add_command(label="Obejrzany", command=self.mark_watched)
+        self.menu.add_command(label="Usuń film", command=self.delete_film)
 
         self.tree.bind("<Button-3>", self.show_context_menu)
 
@@ -128,7 +129,10 @@ class DatabaseView:
         item = selected[0]
         title = self.tree.item(item, "values")[0]
         film = next(f for f in self.films if f.name == title)
-        film.to_watch, film.watched = 1, 0
+        if film.to_watch == 0:
+            film.to_watch = 1
+        else: 
+            film.to_watch = 0
         self.save_all()
         self.load_data()
 
@@ -139,7 +143,10 @@ class DatabaseView:
         item = selected[0]
         title = self.tree.item(item, "values")[0]
         film = next(f for f in self.films if f.name == title)
-        film.to_watch, film.watched = 0, 1
+        if film.watched == 0:
+            film.watched = 1
+        else: 
+            film.watched = 0
         self.save_all()
         self.load_data()
 
@@ -158,3 +165,17 @@ class DatabaseView:
         df = pd.DataFrame(rows)
         df.to_csv(self.csv_file, index=False)
 
+    def delete_film(self):
+        selected = self.tree.selection()
+        if not selected:
+            return
+        item = self.tree.item(selected[0])
+        title = item["values"][0]
+
+        # delete from the list
+        self.films = [f for f in self.films if f.name != title]
+
+        #save to csv
+        self.save_all()
+        #refresh table
+        self.load_data()
